@@ -4,6 +4,19 @@
 
 // Typography
 
+body {
+  font-family: 'Courier New', 'IBM Plex Sans', sans-serif;
+}
+
+h1, h2, .post-title, .navbar-brand {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+p, .news, .nav-item, .publications {
+  font-family: 'Inter', 'Roboto', 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
 p,
 h1,
 h2,
@@ -305,7 +318,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
 
     a {
       i::before {
@@ -616,7 +629,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 500;
       }
 
       .author {
