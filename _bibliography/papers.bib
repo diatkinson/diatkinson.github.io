@@ -28,3 +28,28 @@
       primaryClass={cs.AI},
       abstract = "A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. We propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. We design a basic safety monitor (AgentMonitor) that is flexible enough to monitor existing LLM agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. Then we apply the AgentMonitor on a battery of real-world tests of AutoGPT, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable."
 }
+
+@article{ho2024algorithmic,
+      title={Algorithmic progress in language models},
+      author={Anson Ho and Tamay Besiroglu and Ege Erdil and David Owen and Robi Rahman and Zifan Carl Guo and David Atkinson and Neil Thompson and Jaime Sevilla},
+      journal={arXiv preprint, arXiv:2403.05812},
+      year={2024},
+      month = mar,
+      arxiv={2403.05812},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      abstract = "We investigate the rate at which algorithms for pre-training language models have improved since the advent of deep learning. Using a dataset of over 200 language model evaluations on Wikitext and Penn Treebank spanning 2012-2023, we find that the compute required to reach a set performance threshold has halved approximately every 8 months, with a 95% confidence interval of around 5 to 14 months, substantially faster than hardware gains per Moore's Law. We estimate augmented scaling laws, which enable us to quantify algorithmic progress and determine the relative contributions of scaling models versus innovations in training algorithms. Despite the rapid pace of algorithmic progress and the development of new architectures such as the transformer, our analysis reveals that the increase in compute made an even larger contribution to overall performance improvements over this time period. Though limited by noisy benchmark data, our analysis quantifies the rapid progress in language modeling, shedding light on the relative contributions from compute and algorithms."
+}
+
+@article{sharma2024locating,
+      title={Locating and Editing Factual Associations in Mamba},
+      author={Arnab Sen Sharma and David Atkinson and David Bau},
+      journal={arXiv preprint, arXiv:2404.03646},
+      year={2024},
+      month= apr,
+      eprint={2404.03646},
+      archivePrefix={arXiv},
+      arxiv={2404.03646},
+      primaryClass={cs.CL},
+      abstract = "We investigate the mechanisms of factual recall in the Mamba state space model. Our work is inspired by previous findings in autoregressive transformer language models suggesting that their knowledge recall is localized to particular modules at specific token locations; we therefore ask whether factual recall in Mamba can be similarly localized. To investigate this, we conduct four lines of experiments on Mamba. First, we apply causal tracing or interchange interventions to localize key components inside Mamba that are responsible for recalling facts, revealing that specific components within middle layers show strong causal effects at the last token of the subject, while the causal effect of intervening on later layers is most pronounced at the last token of the prompt, matching previous findings on autoregressive transformers. Second, we show that rank-one model editing methods can successfully insert facts at specific locations, again resembling findings on transformer models. Third, we examine the linearity of Mamba's representations of factual relations. Finally we adapt attention-knockout techniques to Mamba to dissect information flow during factual recall. We compare Mamba directly to a similar-sized transformer and conclude that despite significant differences in architectural approach, when it comes to factual recall, the two architectures share many similarities."
+}
