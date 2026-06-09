@@ -15,6 +15,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year PhD student at Northeastern University, advised by [David Bau](https://baulab.info) and [Byron Wallace](https://www.byronwallace.com/) and supported by the NSF Computer and Information Science and Engineering Graduate [Fellowship](https://www.nsf.gov/cise/CSGrad4US/). My research interests revolve around interpreting and controlling large language models. 
+I am a PhD student at Northeastern University, advised by [David Bau](https://baulab.info) and supported by the NSF Computer and Information Science and Engineering Graduate [Fellowship](https://www.nsf.gov/cise/CSGrad4US/). My research revolves around interpreting large language models, with a particular focus on understanding model introspection and self-reports.
 
 Before starting the PhD, I worked as a software engineer at an agricultural startup, and then as a researcher at [Epoch](https://epochai.org), investigating when and how we should expect advanced AI capabilities to arrive. I majored in Math and Computer Science at the University of Colorado, Boulder, where I did NLP research advised by [Chenhao Tan](https://chenhaot.com).
