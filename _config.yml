@@ -381,8 +381,8 @@ bootstrap:
 bootstrap-table:
   version: "1.21.4"
 fontawesome:
-  version: "6.4.0"
-  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
+  version: "6.7.2"
+  integrity: "sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo="
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
