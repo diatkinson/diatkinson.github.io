@@ -322,7 +322,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # responsive .webp variants are not generated on deploy (GH Action lacks webp support), so the <picture> sources 404; serve originals instead
   widths:
     - 480
     - 800
